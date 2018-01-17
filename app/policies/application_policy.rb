@@ -51,7 +51,7 @@ class ApplicationPolicy
     end
 
     def resolve
-      scope
+      scope 
     end
   end
 end
