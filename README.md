@@ -24,7 +24,6 @@
 - Change days from MM-DD-YYYY to January 31, 2018
 - x Remove unnecessary nav bar buttons for manager
 - x Fix admin dashboard bug
-- Implement Honeybadger for error reporting
+- x Implement Honeybadger for error reporting
 - Implement new relic for keeping the site alive
-- Check on data
 - Make sure the nav buttons work on Heroku for regular users
