@@ -22,8 +22,9 @@
 - x Update buttons to include time span
 - x Update buttons sort order on employee homepage
 - Change days from MM-DD-YYYY to January 31, 2018
-- Remove unnecessary nav bar buttons for manager
-- Fix admin dashboard bug
+- x Remove unnecessary nav bar buttons for manager
+- x Fix admin dashboard bug
 - Implement Honeybadger for error reporting
 - Implement new relic for keeping the site alive
-- Check on data 
+- Check on data
+- Make sure the nav buttons work on Heroku for regular users
