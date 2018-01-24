@@ -17,10 +17,10 @@
 - x Needs to be documented if employee did not log overtime
 - x Create audit log for each text message
 - x Need to update end_date when confirmed
-- Need to update audit_log status when overtime rejected
-- Update buttons on employee homepage so they show on mobile
-- Update buttons to include time span
-- Update buttons sort order on employee homepage
+- x Need to update audit_log status when overtime rejected
+- x Update buttons on employee homepage so they show on mobile
+- x Update buttons to include time span
+- x Update buttons sort order on employee homepage
 - Change days from MM-DD-YYYY to January 31, 2018
 - Remove unnecessary nav bar buttons for manager
 - Fix admin dashboard bug
