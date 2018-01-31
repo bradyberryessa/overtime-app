@@ -9,7 +9,12 @@
     </p>
 
     <p>
-      <span class="pending-details">Confirmed at:</span> <%= recent_audit_items.end_date.strftime("%B %-d, %Y") || status_label("pending") %>
+      <span class="pending-details">Confirmed at:</span>
+      <% if recent_audit_items.end_date != nil %>
+        <%= recent_audit_items.end_date.strftime("%B %-d, %Y") %>
+      <% else %>
+        <%=status_label("pending") %>
+      <% end %>
     </p>
 
     <p>
